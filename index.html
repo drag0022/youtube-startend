@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Link Generator</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <section id="generator">
+        <form>
+            <label for="ytUrl" id="ytUrlLabel">Enter YouTube URL: </label>
+            <input type="text" id="ytUrl" required>
+            <div class="startEnd">
+                <label for="start">Start:</label>
+                <input type="text" id="start" required>
+                <label for="end">End:</label>
+                <input type="text" id="ytUrl" required>
+            </div>
+            <input type="submit" value="Generate">
+            <div class="generateField">
+                <input type="text" id="generateLink">
+                <input type="submit" id="copyToClip">
+            </div>
+        </form>
+    </section>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
