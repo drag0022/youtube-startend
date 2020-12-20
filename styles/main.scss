@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    min-height: 100vh;
+}
+#generator{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50%;
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba(186, 181, 182, 0.37);
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+form{
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.videoThumb{
+    max-width: 100%;
+}
+
+#ytLogo{
+    max-width: 200px;
+    max-height: 256px;
+    position: absolute;
+    margin: -4rem 0 0 12rem;
+}
+
+.button{
+    margin: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    background: rgba(255, 0, 0, 0.625);
+    box-shadow: 0 8px 32px 0 rgba(159, 159, 159, 0.37);
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 18px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    font-size: 2rem;
+}
+
+input{
+    margin: .3rem;
+    padding: 1rem;
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba(92, 92, 92, 0.37);
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+input[type=text]{
+    min-width: 70%;
+}
+label{
+    size: 2rem;
+}
+#copyToClip{
+    margin-left: -4.5rem;
+}
